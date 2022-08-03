@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-03T05:35:17Z" name="Suite" finished-at="2022-08-03T05:36:11Z" duration-ms="53393">
+    <groups>
+    </groups>
+    <test started-at="2022-08-03T05:35:17Z" name="ChromeTest" finished-at="2022-08-03T05:35:40Z" duration-ms="23068">
+      <class name="Test.VerifyLogin">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.VerifyLogin@600b90df]" started-at="2022-08-03T05:35:21Z" name="launchApplication" finished-at="2022-08-03T05:35:23Z" duration-ms="1472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:Test.VerifyLogin@600b90df]" started-at="2022-08-03T05:35:23Z" name="loginToApplication" finished-at="2022-08-03T05:35:23Z" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="demo()[pri:0, instance:Test.VerifyLogin@600b90df]" started-at="2022-08-03T05:35:23Z" name="demo" finished-at="2022-08-03T05:35:27Z" duration-ms="3492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test.VerifyLogin@600b90df]" started-at="2022-08-03T05:35:27Z" name="closebrowser" finished-at="2022-08-03T05:35:31Z" duration-ms="3779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Test.VerifyLogin -->
+      <class name="Test.SelectRelianceShare">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:Test.SelectRelianceShare@7c8c9a05]" started-at="2022-08-03T05:35:17Z" name="invokeBrowser" finished-at="2022-08-03T05:35:20Z" duration-ms="2589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:Test.VerifyLogin@600b90df]" started-at="2022-08-03T05:35:20Z" name="invokeBrowser" finished-at="2022-08-03T05:35:21Z" duration-ms="1430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.SelectRelianceShare@7c8c9a05]" started-at="2022-08-03T05:35:31Z" name="launchApplication" finished-at="2022-08-03T05:35:33Z" duration-ms="2284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:Test.SelectRelianceShare@7c8c9a05]" started-at="2022-08-03T05:35:33Z" name="loginToApplication" finished-at="2022-08-03T05:35:34Z" duration-ms="849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="demo()[pri:0, instance:Test.SelectRelianceShare@7c8c9a05]" started-at="2022-08-03T05:35:34Z" name="demo" finished-at="2022-08-03T05:35:37Z" duration-ms="3025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test.SelectRelianceShare@7c8c9a05]" started-at="2022-08-03T05:35:37Z" name="closebrowser" finished-at="2022-08-03T05:35:40Z" duration-ms="3233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="cleargarbagecollection()[pri:0, instance:Test.SelectRelianceShare@7c8c9a05]" started-at="2022-08-03T05:35:40Z" name="cleargarbagecollection" finished-at="2022-08-03T05:35:40Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleargarbagecollection -->
+        <test-method is-config="true" signature="cleargarbagecollection()[pri:0, instance:Test.VerifyLogin@600b90df]" started-at="2022-08-03T05:35:40Z" name="cleargarbagecollection" finished-at="2022-08-03T05:35:40Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleargarbagecollection -->
+      </class> <!-- Test.SelectRelianceShare -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-08-03T05:35:40Z" name="EdgeTest" finished-at="2022-08-03T05:36:11Z" duration-ms="30271">
+      <class name="Test.VerifyLogin">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.VerifyLogin@363a52f]" started-at="2022-08-03T05:35:49Z" name="launchApplication" finished-at="2022-08-03T05:35:51Z" duration-ms="1646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:Test.VerifyLogin@363a52f]" started-at="2022-08-03T05:35:51Z" name="loginToApplication" finished-at="2022-08-03T05:35:52Z" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="demo()[pri:0, instance:Test.VerifyLogin@363a52f]" started-at="2022-08-03T05:35:52Z" name="demo" finished-at="2022-08-03T05:35:56Z" duration-ms="3593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test.VerifyLogin@363a52f]" started-at="2022-08-03T05:35:56Z" name="closebrowser" finished-at="2022-08-03T05:36:00Z" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Test.VerifyLogin -->
+      <class name="Test.SelectRelianceShare">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:Test.SelectRelianceShare@60856961]" started-at="2022-08-03T05:35:40Z" name="invokeBrowser" finished-at="2022-08-03T05:35:45Z" duration-ms="4873" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:Test.VerifyLogin@363a52f]" started-at="2022-08-03T05:35:45Z" name="invokeBrowser" finished-at="2022-08-03T05:35:49Z" duration-ms="4225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Test.SelectRelianceShare@60856961]" started-at="2022-08-03T05:36:00Z" name="launchApplication" finished-at="2022-08-03T05:36:03Z" duration-ms="3269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:Test.SelectRelianceShare@60856961]" started-at="2022-08-03T05:36:03Z" name="loginToApplication" finished-at="2022-08-03T05:36:05Z" duration-ms="1721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="demo()[pri:0, instance:Test.SelectRelianceShare@60856961]" started-at="2022-08-03T05:36:05Z" name="demo" finished-at="2022-08-03T05:36:06Z" duration-ms="1429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:Test.SelectRelianceShare@60856961]" started-at="2022-08-03T05:36:06Z" name="closebrowser" finished-at="2022-08-03T05:36:10Z" duration-ms="4272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="cleargarbagecollection()[pri:0, instance:Test.SelectRelianceShare@60856961]" started-at="2022-08-03T05:36:10Z" name="cleargarbagecollection" finished-at="2022-08-03T05:36:10Z" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleargarbagecollection -->
+        <test-method is-config="true" signature="cleargarbagecollection()[pri:0, instance:Test.VerifyLogin@363a52f]" started-at="2022-08-03T05:36:10Z" name="cleargarbagecollection" finished-at="2022-08-03T05:36:11Z" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleargarbagecollection -->
+      </class> <!-- Test.SelectRelianceShare -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

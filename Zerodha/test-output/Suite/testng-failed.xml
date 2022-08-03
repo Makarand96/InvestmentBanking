@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="Test.VerifyLogin">
+        <methods>
+          <include name="cleargarbagecollection"/>
+          <include name="demo"/>
+          <include name="launchApplication"/>
+          <include name="closebrowser"/>
+          <include name="loginToApplication"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- Test.VerifyLogin -->
+      <class name="Test.SelectRelianceShare">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="demo"/>
+          <include name="launchApplication"/>
+          <include name="invokeBrowser"/>
+          <include name="loginToApplication"/>
+          <include name="cleargarbagecollection"/>
+        </methods>
+      </class> <!-- Test.SelectRelianceShare -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
