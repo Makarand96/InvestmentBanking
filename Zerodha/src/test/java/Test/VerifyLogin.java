@@ -64,6 +64,7 @@ public class VerifyLogin extends Base {
 
 	@Test
 	public void demo() throws InterruptedException {
+		System.out.println("Test Method of VerifyLogin")
 		Thread.sleep(2000);
 		homepage = new HomePage(driver);
 		homepage.selectorders(driver);
